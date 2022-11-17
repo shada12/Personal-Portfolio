@@ -79,13 +79,7 @@ header .section2 p {
     transition-delay: 0.25s;
 }
 
-section p:hover {
-    color: var(--textBlue);
-    cursor: pointer;
-}
-
 header section:hover {
-   /* background-color: var(--gray);*/
     box-shadow: 5px 10px var(--shadowBlue);
     cursor: pointer;
 }
@@ -124,6 +118,11 @@ main section {
 main section:hover {
     box-shadow: 5px 10px var(--shadowBlue);
     color: var(--textBlue);
+}
+
+section p:hover {
+    color: var(--textBlue);
+    cursor: pointer;
 }
 
 main .myWorkDiv {
@@ -206,20 +205,9 @@ main section:hover {
     transform: perspective(100px) translateZ(5px);
 }
 
-main p img:hover {
+main img:hover {
     transform: perspective(100px) translateZ(-20px);
-    /* animation: rotation 2s infinite linear;*/
 }
-
-/*@keyframes rotation {
-
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(359deg);
-  }
-} */
 
 a {
     text-decoration: none;
